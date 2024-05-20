@@ -1,0 +1,101 @@
+*{
+  text-align: center;
+}
+
+
+#cad{
+  box-sizing: border-box;
+  margin-top: 80px;
+  display: flex;
+  margin-left: 30%;
+}
+
+input {
+  border: 1px dashed #ddd;
+  margin: 10px;
+}
+
+button{
+  cursor: pointer;
+  color: black;
+  background: color #888;
+}
+
+#filter-produtos{
+  margin: 10px;
+  width: 240px;
+  font-size: 14px;  
+}
+
+#table{
+  color: #888;
+  font-size: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#filter{
+  display: flex;
+  color: #888;
+  margin-top: 10px;
+  margin-left: 580px;
+  cursor: pointer;
+}
+#filter-produtos{
+  margin-top: 10px;
+  box-sizing: border-box;
+  color: #888;
+  cursor: pointer;
+}
+
+#value{
+  margin-left: 10px;
+}
+
+#pedidosFeitos {
+  border: 1px solid #606060;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-top: 20px;
+}
+
+
+#pedidosFeitos ul {
+  margin-right: 30px;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+
+#table#pedidos-Entregue {
+  border: 1px solid #606060;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table#pedidos-Entregue td {
+  border: 1px solid #606060;
+  padding: 11px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table#pedidos-Entregue td.ce {
+  color: #ffff;
+  background-color: #606060;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+/* celula da direita */
+
+table#pedidos-Entregue td.cd {
+  background-color: #cecece;
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="cssCad/cad.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="script/index.js"></script>
+  <title>Cardapio</title>
+</head>
+
+<body>
+  <div id="home">
+    <ul id="pagina">
+      <li> <a href="index.html"> Home </a></li>
+      <li> <a href="cadastro.html">cadasto</a> </li>
+    </ul>
+  </div>
+
+  <div id="cad">
+    <input id="Nome" type="text" placeholder="Nome">
+    <input id="Sobrenome" type="text" placeholder="Sobrenome">
+    <input id="DataNasc" type="date" placeholder="Data Nascimento">
+    <button onclick="salva()">cadastrar</button>
+  </div>
+  <p id="add1"></p>
+  <div>
+    <h1 id="table">Tabela de pedidos</h1>
+
+    <div id="filter">
+      <h4>cardapio:</h4>
+      <select id="filter-produtos">
+        <option class="NomeProd">Pão Frances</option>
+        <option class="NomeProd">Pão Doce</option>
+        <option class="NomeProd">Pão Arabe</option>
+        <option class="NomeProd">Torta Doce</option>
+      </select>
+    </div>
+    <div id="filter">
+      <h4 id="value">valores:</h4>
+      <select id="filter-produtos">
+        <option class="valorProd">R$ 0,95</option>
+        <option class="valorProd">R$ 1,90</option>
+        <option class="valorProd">R$ 3,90</option>
+        <option class="valorProd"> R$ 23,90</option>
+      </select>
+      <button id="button" onclick="add()">Finalizar</button>
+    </div>
+    <p id="add2"></p>
+
+    <div id="pedidosFeitos">
+      <Table id="pedidos-Entregue">
+
+        <tr>
+          <td  class="ce"> Eder aleixo</td>
+          <td class="cd"> Pão Frances R$ 0,95 </td>
+        </tr>
+        <tr>
+          <td class="ce"> Matheus gonsalves</td>
+          <td class="cd">Pão Doce R$ 1,90</td>
+        </tr>
+        <tr>
+          <td class="ce"> Miranda</td>
+          <td class="cd">Pão Arabe R$ 3,90</td>
+        </tr>
+        <tr>
+          <td class="ce"> Jaqueline</td>
+          <td class="cd">Torta Doce R$ 23,90</td>
+        </tr>
+      </Table>
+
+    </div>
+  </div>
+</body>
+
+</html>
